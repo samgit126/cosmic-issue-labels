@@ -1,0 +1,6 @@
+issuekey,project,source_corpus,sizeable,reason,n_processes,entries,exits,reads,writes,cfp,rater,rater_confidence,adjudicated,notes
+MESOS-313,mesos,gpt2sp,yes,,1,1,1,1,0,3,STY,2,no,"Report executor termination to framework scheduler: E executor-lost event; R executor/framework record; X executorLost callback to scheduler"
+MESOS-336,mesos,gpt2sp,yes,,1,1,1,1,1,4,STY,2,no,"Slave caches executors: E launch request; R cache entry; W cache entry on miss; X executor to task launcher (fetch from HDFS treated as R of external store merged with cache R)"
+MESOS-343,mesos,gpt2sp,yes,,1,1,1,0,0,2,STY,2,no,"Expose TASK_FAILED reason: E status update; X status with reason to framework"
+USERGRID-EXAMPLE-1,usergrid,gpt2sp,no,non-functional,0,0,0,0,0,0,STY,3,no,"Upgrade build plugin version; no functional-user-visible behaviour"
+USERGRID-EXAMPLE-2,usergrid,gpt2sp,no,insufficient-text,0,0,0,0,0,0,STY,3,no,"Title only: 'fix it'; no process identifiable"
